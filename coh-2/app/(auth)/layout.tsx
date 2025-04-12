@@ -3,7 +3,7 @@ import { ReactNode } from "react"
 // Wrap the content of the layout in the children component
 // (auth) will display in the route
 
-export default function({ children }: {
+export default function AuthLayout({ children }: {
   children: ReactNode
 }) {
   return (
